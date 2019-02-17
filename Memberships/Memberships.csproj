@@ -190,12 +190,29 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\csharp-for-beginners.png" />
+    <Content Include="Content\Images\csharp-zip.png" />
+    <Content Include="Content\Images\laptop.jpg" />
+    <Content Include="Content\Images\pdf.png" />
+    <Content Include="Content\Images\unit-testing.png" />
+    <Content Include="Content\Images\video.png" />
+    <Content Include="Content\Logos\membership-icon-30x152.png" />
+    <Content Include="Content\Logos\membership-icon-45x184.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\csharp-for-beginners.png" />
+    <Content Include="Images\csharp-zip.png" />
+    <Content Include="Images\laptop.jpg" />
+    <Content Include="Images\pdf.png" />
+    <Content Include="Images\unit-testing.png" />
+    <Content Include="Images\video.png" />
+    <Content Include="Logo\membership-icon-30x152.png" />
+    <Content Include="Logo\membership-icon-45x184.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Documents\test_pdf.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -241,9 +258,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="test_pdf.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
