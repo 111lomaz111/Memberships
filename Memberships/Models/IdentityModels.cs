@@ -14,6 +14,7 @@ namespace Memberships.Models
         public string FirstName { get; set; }
         public bool IsActive { get; set; }
         public DateTime Registered { get; set; }
+
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Element authenticationType musi pasować do elementu zdefiniowanego w elemencie CookieAuthenticationOptions.AuthenticationType
