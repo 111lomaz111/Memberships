@@ -27,7 +27,7 @@ namespace Memberships.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("ExternalDB", throwIfV1Schema: false)
         {
         }
 
