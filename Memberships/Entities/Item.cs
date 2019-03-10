@@ -38,6 +38,7 @@ namespace Memberships.Entities
         /// Path to item image
         /// </summary>
         [MaxLength(1024)]
+        [DisplayName("Image URL")]
         public string ImageUrl { get; set; }
 
         /// <summary>
@@ -50,6 +51,7 @@ namespace Memberships.Entities
         /// Number of days to wait for item (smth like annoucement for premiere)
         /// </summary>
         [DefaultValue(0)]
+        [DisplayName("Wait days")]
         public int WaitDays { get; set; }
 
         /// <summary>
@@ -68,9 +70,10 @@ namespace Memberships.Entities
         public int PartId { get; set; }
 
         /// <summary>
-        /// Specify if item is free or user need to pay for it. // I`ve send question to author of course why it isn`t bool instead of int
+        /// Specify if item is free or user need to pay for it. // I`ve send question to author of course why it isn`t bool instead of int // Repaired
         /// </summary>
-        public int IsFree{ get; set; }
+        [DisplayName("Is free")]
+        public bool IsFree{ get; set; }
 
         /// <summary>
         /// Props. for lazy loading. // loading just when it`s necessary
